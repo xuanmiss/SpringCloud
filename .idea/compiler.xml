@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="ms-client-hi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloudserver" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="ms-client-hello" target="1.8" />
+      <module name="ms-client-hi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

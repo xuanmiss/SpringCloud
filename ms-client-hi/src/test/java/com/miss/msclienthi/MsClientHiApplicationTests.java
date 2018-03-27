@@ -1,4 +1,4 @@
-package com.miss.eurekaclient;
+package com.miss.msclienthi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaClientApplicationTests {
+public class MsClientHiApplicationTests {
 
 	@Test
 	public void contextLoads() {

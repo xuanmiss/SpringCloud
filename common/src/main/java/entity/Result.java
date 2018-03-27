@@ -1,11 +1,13 @@
-package com.miss.eurekaclient.entity;
+package entity;
+
+import java.io.Serializable;
 
 /**
  * @author miss
  * <p>
- * Created by miss on 2018/3/26
+ * Created by miss on 2018/3/27
  */
-public class Result<T> {
+public class Result<T> implements Serializable{
 
     private String code;
     private String message;
