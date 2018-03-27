@@ -25,8 +25,6 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Edgware.SR1</spring-cloud.version>
         <spring-boot-admin.version>1.5.6</spring-boot-admin.version>
-        <mpass-api.version>0.0.1</mpass-api.version>
-        <mpass-security.version>0.0.1</mpass-security.version>
         <mysql-connector.version>6.0.6</mysql-connector.version>
     </properties>
 
@@ -53,14 +51,9 @@
                 <version>${spring-boot-admin.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.definesys</groupId>
-                <artifactId>mpass-api</artifactId>
-                <version>${mpass-api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.definesys</groupId>
-                <artifactId>mpass-security</artifactId>
-                <version>${mpass-security.version}</version>
+                <groupId>com.miss</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>

@@ -1,0 +1,15 @@
+server:
+  port: 1010
+spring:
+  application:
+    name: ms-feign-hi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
+  instance:
+    instance-id: ms-feign-hi
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true

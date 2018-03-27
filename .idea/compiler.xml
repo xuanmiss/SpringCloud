@@ -9,7 +9,9 @@
         <module name="common" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="ms-client-hello" />
         <module name="ms-client-hi" />
+        <module name="ms-feign-hi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="ms-client-hello" target="1.8" />
       <module name="ms-client-hi" target="1.8" />
+      <module name="ms-feign-hi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

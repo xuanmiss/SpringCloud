@@ -1,5 +1,5 @@
 server:
-  port: 1012
+  port: 1011
 spring:
   application:
     name: service-hi

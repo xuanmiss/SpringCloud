@@ -1,5 +1,4 @@
-package com.miss.msclienthi.controller;
-
+package com.miss.msclienthello.controller;
 
 import entity.Result;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,16 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
  * <p>
  * Created by miss on 2018/3/27
  */
+
 @RestController
 @RequestMapping("/api")
-public class HiController {
+public class HelloController {
 
     @Value("${server.port}")
-    private String hi ;
+    private String hello;
 
     @GetMapping("/hi")
-    public Result getHi(@RequestParam(value = "name",required = false)String name)
+    public Result getHello(@RequestParam(value = "name",required = false)String name)
     {
-        return Result.OK(hi+"***"+name);
+        return Result.OK(hello+"***"+name);
     }
 }
